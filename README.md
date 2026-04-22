@@ -1,4 +1,4 @@
-# Sistema_de_tienda-POO_Paradigmas
+#Sistema de Tienda (POO + Flask)
 ## **Descripción del proyecto**
 
 **Objetivo:** Diseñar e implementar una aplicación de web que gestione las ventas diarias de una tienda de abarrotes, aplicando rigurosamente los principios de Programación Orientada a Objetos e implementando Patrones de Diseño bajo la arquitectura Modelo-Vista-Controlador (MVC) .
@@ -33,6 +33,7 @@ El sistema debe permitir:
 - Flask
 - HTML / CSS / Js
 - Git y Github
+- SQLite
 ```
 
 ---
@@ -51,6 +52,7 @@ com.tienda.abarrotes
 |  |-producto_granel.py
 |  |-producto_unitario.py
 |  |-detalles_venta.py
+|  |-database.py
 |
 |-view
 |  |
@@ -89,20 +91,20 @@ com.tienda.abarrotes
 |    |-iestrategia_descuento.py
 |
 |-utils
-  |-sin_stock_exeption.py
-
+|  |-sin_stock_exeption.py
+|
+|-database
+| |
+| |-tienda.db
 ```
 ---
-##Como ejecutar
-
+## Como ejecutar
 para ejecutar el proyect, se ejectuar el archivo "app.py"
-
 ---
-##Acceso
-
+## Acceso
 Abrir en el navegador:
 htt://127.0.0.1:5000
 ---
-#Alumnos:
+# Alumnos:
 Garcia Reyes Gamaliel
 Montes Olivares Sergio Alonso
