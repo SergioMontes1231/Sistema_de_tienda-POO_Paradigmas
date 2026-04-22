@@ -1,13 +1,12 @@
 #Sistema de Tienda (POO + Flask)
 ## **Descripción del proyecto**
-
 **Objetivo:** Diseñar e implementar una aplicación de web que gestione las ventas diarias de una tienda de abarrotes, aplicando rigurosamente los principios de Programación Orientada a Objetos e implementando Patrones de Diseño bajo la arquitectura Modelo-Vista-Controlador (MVC) .
 ---
 
 ### 1. Requerimientos Funcionales del Sistema
 
 El sistema debe permitir:
-
+´´´md
 1.  **Gestión de Productos:**
     - Registrar productos: Código de barras, nombre, categoría (Abarrotes, Lácteos, Bebidas, Limpieza), precio de compra, precio de venta, stock actual.
     - Listar productos con filtro por categoría o nombre.
@@ -24,10 +23,9 @@ El sistema debe permitir:
 3.  **Gestión de Clientes:**
     - Registrar clientes frecuentes (Nombre, Teléfono, Puntos acumulados).
     - Asignar cliente a la venta.
-
+´´´
 ---
 ## Tecnologias usadas
-
 ```md
 - Python
 - Flask
