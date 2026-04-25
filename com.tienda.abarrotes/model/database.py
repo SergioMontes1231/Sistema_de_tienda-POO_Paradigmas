@@ -24,7 +24,7 @@ def crear_tablas():
             codigo_barras  INTEGER UNIQUE,
             precio_compra REAL,
             precio_venta REAL,
-            stock INTEGER NOT NULL
+            stock REAL NOT NULL
             )
         """) 
 
